@@ -62,7 +62,7 @@ Função para renderizar filmes na tela
 
 
 const renderizarLista = () =>{
-    //limpa a tela antes de renderizar
+    // limpa a tela antes de renderizar
     listaFilmes.innerHTML = ""
     //percorre o array de filmes, inserindo um li com o nome do filme a cada volta do loop
     filmes.forEach((filme)=>{
@@ -106,7 +106,7 @@ btn1.addEventListener('click',()=>{
     inputUsuario.value = ''
 })
 /*
-Função corrigaaaaaa
+Função blablabla
 */
 
 const favoritoClicado = (eventoDeClique) => {
